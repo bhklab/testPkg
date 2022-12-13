@@ -4,5 +4,5 @@
 \alias{test_vector}
 \title{A sample vector to compute test on}
 \description{
-A sample vector to compute test on
+A cell-line dose-response experimetn
 }

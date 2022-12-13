@@ -10,5 +10,6 @@
 #' @export
 myFun <- function(x=1) {
     if (!all(is.numeric(x))) stop("x must be numeric vector!")
-    x ** 2
+    y <- x ** 2
+    stopifnot(all(is.finite(y)))
 }
